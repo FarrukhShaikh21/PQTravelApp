@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="windows-1252" ?>
+<!DOCTYPE AppModule SYSTEM "jbo_03_01.dtd">
+<!---->
+<AppModule
+  xmlns="http://xmlns.oracle.com/bc4j"
+  Name="TravelAppModule"
+  Version="12.2.1.11.57"
+  InheritPersonalization="merge"
+  ClearCacheOnRollback="true">
+  <ViewUsage
+    Name="AllLocationsView1"
+    ViewObjectName="pqtapp.pqtravelmodel.trvo.AllLocationsView"/>
+  <ViewUsage
+    Name="AllLocationsView2"
+    ViewObjectName="pqtapp.pqtravelmodel.trvo.AllLocationsView"/>
+  <ViewLinkUsage
+    Name="R264Link1"
+    ViewLinkObjectName="pqtapp.pqtravelmodel.trvo.R264Link"
+    SrcViewUsageName="pqtapp.pqtravelmodel.tram.TravelAppModule.AllLocationsView1"
+    DstViewUsageName="pqtapp.pqtravelmodel.tram.TravelAppModule.AllLocationsView2"
+    Reversed="false"/>
+</AppModule>

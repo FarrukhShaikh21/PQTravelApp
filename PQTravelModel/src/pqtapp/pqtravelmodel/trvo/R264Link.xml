@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="windows-1252" ?>
+<!DOCTYPE ViewLink SYSTEM "jbo_03_01.dtd">
+<!---->
+<ViewLink
+  xmlns="http://xmlns.oracle.com/bc4j"
+  Name="R264Link"
+  Version="12.2.1.11.57"
+  InheritPersonalization="merge"
+  EntityAssociation="pqtapp.pqtravelmodel.treo.R264Assoc">
+  <ViewLinkDefEnd
+    Name="ParentLocationidAllLocationsView"
+    Cardinality="1"
+    Source="true"
+    Owner="pqtapp.pqtravelmodel.trvo.AllLocationsView">
+    <DesignTime>
+      <Attr Name="_isUpdateable" Value="true"/>
+      <Attr Name="_finderName" Value="ParentLocationidAllLocationsView"/>
+    </DesignTime>
+    <AttrArray Name="Attributes">
+      <Item Value="pqtapp.pqtravelmodel.trvo.AllLocationsView.Locationid"/>
+    </AttrArray>
+  </ViewLinkDefEnd>
+  <ViewLinkDefEnd
+    Name="AllLocationsView"
+    Cardinality="-1"
+    Owner="pqtapp.pqtravelmodel.trvo.AllLocationsView">
+    <DesignTime>
+      <Attr Name="_isUpdateable" Value="true"/>
+      <Attr Name="_finderName" Value="AllLocationsView"/>
+    </DesignTime>
+    <AttrArray Name="Attributes">
+      <Item Value="pqtapp.pqtravelmodel.trvo.AllLocationsView.ParentLocationid"/>
+    </AttrArray>
+  </ViewLinkDefEnd>
+</ViewLink>
