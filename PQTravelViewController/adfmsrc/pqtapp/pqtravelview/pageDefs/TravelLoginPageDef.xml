@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<pageDefinition xmlns="http://xmlns.oracle.com/adfm/uimodel" version="12.2.1.11.57" id="TravelLoginPageDef"
+                Package="pqtapp.pqtravelview.pageDefs">
+  <parameters/>
+  <executables>
+    <variableIterator id="variables"/>
+    <iterator Binds="AllLocationsView1" RangeSize="25" DataControl="TravelAppModuleDataControl"
+              id="AllLocationsView1Iterator"/>
+  </executables>
+  <bindings>
+    <attributeValues IterBinding="AllLocationsView1Iterator" id="Locationid">
+      <AttrNames>
+        <Item Value="Locationid"/>
+      </AttrNames>
+    </attributeValues>
+    <attributeValues IterBinding="AllLocationsView1Iterator" id="Companyid">
+      <AttrNames>
+        <Item Value="Companyid"/>
+      </AttrNames>
+    </attributeValues>
+    <attributeValues IterBinding="AllLocationsView1Iterator" id="Officetypeid">
+      <AttrNames>
+        <Item Value="Officetypeid"/>
+      </AttrNames>
+    </attributeValues>
+    <attributeValues IterBinding="AllLocationsView1Iterator" id="LocationDescription">
+      <AttrNames>
+        <Item Value="LocationDescription"/>
+      </AttrNames>
+    </attributeValues>
+    <attributeValues IterBinding="AllLocationsView1Iterator" id="Address">
+      <AttrNames>
+        <Item Value="Address"/>
+      </AttrNames>
+    </attributeValues>
+    <attributeValues IterBinding="AllLocationsView1Iterator" id="Contact">
+      <AttrNames>
+        <Item Value="Contact"/>
+      </AttrNames>
+    </attributeValues>
+    <attributeValues IterBinding="AllLocationsView1Iterator" id="Createdby">
+      <AttrNames>
+        <Item Value="Createdby"/>
+      </AttrNames>
+    </attributeValues>
+    <attributeValues IterBinding="AllLocationsView1Iterator" id="ParentLocationid">
+      <AttrNames>
+        <Item Value="ParentLocationid"/>
+      </AttrNames>
+    </attributeValues>
+    <attributeValues IterBinding="AllLocationsView1Iterator" id="CreatedDate">
+      <AttrNames>
+        <Item Value="CreatedDate"/>
+      </AttrNames>
+    </attributeValues>
+    <attributeValues IterBinding="AllLocationsView1Iterator" id="Modifiedby">
+      <AttrNames>
+        <Item Value="Modifiedby"/>
+      </AttrNames>
+    </attributeValues>
+    <attributeValues IterBinding="AllLocationsView1Iterator" id="ModifiedDate">
+      <AttrNames>
+        <Item Value="ModifiedDate"/>
+      </AttrNames>
+    </attributeValues>
+    <attributeValues IterBinding="AllLocationsView1Iterator" id="TelNo">
+      <AttrNames>
+        <Item Value="TelNo"/>
+      </AttrNames>
+    </attributeValues>
+    <attributeValues IterBinding="AllLocationsView1Iterator" id="MobileNo">
+      <AttrNames>
+        <Item Value="MobileNo"/>
+      </AttrNames>
+    </attributeValues>
+    <attributeValues IterBinding="AllLocationsView1Iterator" id="Email">
+      <AttrNames>
+        <Item Value="Email"/>
+      </AttrNames>
+    </attributeValues>
+    <attributeValues IterBinding="AllLocationsView1Iterator" id="FaxNo">
+      <AttrNames>
+        <Item Value="FaxNo"/>
+      </AttrNames>
+    </attributeValues>
+    <attributeValues IterBinding="AllLocationsView1Iterator" id="Country">
+      <AttrNames>
+        <Item Value="Country"/>
+      </AttrNames>
+    </attributeValues>
+    <attributeValues IterBinding="AllLocationsView1Iterator" id="City">
+      <AttrNames>
+        <Item Value="City"/>
+      </AttrNames>
+    </attributeValues>
+    <attributeValues IterBinding="AllLocationsView1Iterator" id="Glcode">
+      <AttrNames>
+        <Item Value="Glcode"/>
+      </AttrNames>
+    </attributeValues>
+    <attributeValues IterBinding="AllLocationsView1Iterator" id="Ccenter">
+      <AttrNames>
+        <Item Value="Ccenter"/>
+      </AttrNames>
+    </attributeValues>
+    <attributeValues IterBinding="AllLocationsView1Iterator" id="AllowTrans">
+      <AttrNames>
+        <Item Value="AllowTrans"/>
+      </AttrNames>
+    </attributeValues>
+    <attributeValues IterBinding="AllLocationsView1Iterator" id="Regionid">
+      <AttrNames>
+        <Item Value="Regionid"/>
+      </AttrNames>
+    </attributeValues>
+    <attributeValues IterBinding="AllLocationsView1Iterator" id="GoodsReceivedGlCode">
+      <AttrNames>
+        <Item Value="GoodsReceivedGlCode"/>
+      </AttrNames>
+    </attributeValues>
+    <attributeValues IterBinding="AllLocationsView1Iterator" id="GoodsSendtGlCode">
+      <AttrNames>
+        <Item Value="GoodsSendtGlCode"/>
+      </AttrNames>
+    </attributeValues>
+    <attributeValues IterBinding="AllLocationsView1Iterator" id="FundMovementGlCode">
+      <AttrNames>
+        <Item Value="FundMovementGlCode"/>
+      </AttrNames>
+    </attributeValues>
+    <attributeValues IterBinding="AllLocationsView1Iterator" id="StockMovementGlCode">
+      <AttrNames>
+        <Item Value="StockMovementGlCode"/>
+      </AttrNames>
+    </attributeValues>
+    <attributeValues IterBinding="AllLocationsView1Iterator" id="GrCcenter">
+      <AttrNames>
+        <Item Value="GrCcenter"/>
+      </AttrNames>
+    </attributeValues>
+    <attributeValues IterBinding="AllLocationsView1Iterator" id="GsCcenter">
+      <AttrNames>
+        <Item Value="GsCcenter"/>
+      </AttrNames>
+    </attributeValues>
+    <attributeValues IterBinding="AllLocationsView1Iterator" id="FmCcenter">
+      <AttrNames>
+        <Item Value="FmCcenter"/>
+      </AttrNames>
+    </attributeValues>
+    <attributeValues IterBinding="AllLocationsView1Iterator" id="SmCcenter">
+      <AttrNames>
+        <Item Value="SmCcenter"/>
+      </AttrNames>
+    </attributeValues>
+    <attributeValues IterBinding="AllLocationsView1Iterator" id="Supplierid">
+      <AttrNames>
+        <Item Value="Supplierid"/>
+      </AttrNames>
+    </attributeValues>
+    <attributeValues IterBinding="AllLocationsView1Iterator" id="AutoDiscount">
+      <AttrNames>
+        <Item Value="AutoDiscount"/>
+      </AttrNames>
+    </attributeValues>
+    <attributeValues IterBinding="AllLocationsView1Iterator" id="GeneralMovementGlCode">
+      <AttrNames>
+        <Item Value="GeneralMovementGlCode"/>
+      </AttrNames>
+    </attributeValues>
+    <attributeValues IterBinding="AllLocationsView1Iterator" id="GmCcenter">
+      <AttrNames>
+        <Item Value="GmCcenter"/>
+      </AttrNames>
+    </attributeValues>
+    <attributeValues IterBinding="AllLocationsView1Iterator" id="ProvAllow">
+      <AttrNames>
+        <Item Value="ProvAllow"/>
+      </AttrNames>
+    </attributeValues>
+    <attributeValues IterBinding="AllLocationsView1Iterator" id="RepLocationid">
+      <AttrNames>
+        <Item Value="RepLocationid"/>
+      </AttrNames>
+    </attributeValues>
+    <attributeValues IterBinding="AllLocationsView1Iterator" id="Cityid">
+      <AttrNames>
+        <Item Value="Cityid"/>
+      </AttrNames>
+    </attributeValues>
+    <attributeValues IterBinding="AllLocationsView1Iterator" id="AllowOvertime">
+      <AttrNames>
+        <Item Value="AllowOvertime"/>
+      </AttrNames>
+    </attributeValues>
+    <attributeValues IterBinding="AllLocationsView1Iterator" id="AllowLeaveIncentive">
+      <AttrNames>
+        <Item Value="AllowLeaveIncentive"/>
+      </AttrNames>
+    </attributeValues>
+    <attributeValues IterBinding="AllLocationsView1Iterator" id="PayRegionid">
+      <AttrNames>
+        <Item Value="PayRegionid"/>
+      </AttrNames>
+    </attributeValues>
+    <attributeValues IterBinding="AllLocationsView1Iterator" id="BranchGlCode">
+      <AttrNames>
+        <Item Value="BranchGlCode"/>
+      </AttrNames>
+    </attributeValues>
+    <attributeValues IterBinding="AllLocationsView1Iterator" id="BranchCcenter">
+      <AttrNames>
+        <Item Value="BranchCcenter"/>
+      </AttrNames>
+    </attributeValues>
+    <attributeValues IterBinding="AllLocationsView1Iterator" id="ApplyCreditlimit">
+      <AttrNames>
+        <Item Value="ApplyCreditlimit"/>
+      </AttrNames>
+    </attributeValues>
+    <attributeValues IterBinding="AllLocationsView1Iterator" id="SrvDelidays">
+      <AttrNames>
+        <Item Value="SrvDelidays"/>
+      </AttrNames>
+    </attributeValues>
+    <attributeValues IterBinding="AllLocationsView1Iterator" id="Workingtime">
+      <AttrNames>
+        <Item Value="Workingtime"/>
+      </AttrNames>
+    </attributeValues>
+    <attributeValues IterBinding="AllLocationsView1Iterator" id="Offday">
+      <AttrNames>
+        <Item Value="Offday"/>
+      </AttrNames>
+    </attributeValues>
+    <attributeValues IterBinding="AllLocationsView1Iterator" id="Breaktime">
+      <AttrNames>
+        <Item Value="Breaktime"/>
+      </AttrNames>
+    </attributeValues>
+    <attributeValues IterBinding="AllLocationsView1Iterator" id="RebateAct">
+      <AttrNames>
+        <Item Value="RebateAct"/>
+      </AttrNames>
+    </attributeValues>
+    <attributeValues IterBinding="AllLocationsView1Iterator" id="RebateDays">
+      <AttrNames>
+        <Item Value="RebateDays"/>
+      </AttrNames>
+    </attributeValues>
+    <attributeValues IterBinding="AllLocationsView1Iterator" id="ApplyImei">
+      <AttrNames>
+        <Item Value="ApplyImei"/>
+      </AttrNames>
+    </attributeValues>
+    <attributeValues IterBinding="AllLocationsView1Iterator" id="Salestax">
+      <AttrNames>
+        <Item Value="Salestax"/>
+      </AttrNames>
+    </attributeValues>
+    <attributeValues IterBinding="AllLocationsView1Iterator" id="ReportHeading1">
+      <AttrNames>
+        <Item Value="ReportHeading1"/>
+      </AttrNames>
+    </attributeValues>
+    <attributeValues IterBinding="AllLocationsView1Iterator" id="CheckImeiStatus">
+      <AttrNames>
+        <Item Value="CheckImeiStatus"/>
+      </AttrNames>
+    </attributeValues>
+    <attributeValues IterBinding="AllLocationsView1Iterator" id="CheckCustomerAudit">
+      <AttrNames>
+        <Item Value="CheckCustomerAudit"/>
+      </AttrNames>
+    </attributeValues>
+    <attributeValues IterBinding="AllLocationsView1Iterator" id="CheckDealerConfirm">
+      <AttrNames>
+        <Item Value="CheckDealerConfirm"/>
+      </AttrNames>
+    </attributeValues>
+    <attributeValues IterBinding="AllLocationsView1Iterator" id="DealerConfirmDays">
+      <AttrNames>
+        <Item Value="DealerConfirmDays"/>
+      </AttrNames>
+    </attributeValues>
+    <attributeValues IterBinding="AllLocationsView1Iterator" id="RestrictBoxNo">
+      <AttrNames>
+        <Item Value="RestrictBoxNo"/>
+      </AttrNames>
+    </attributeValues>
+    <attributeValues IterBinding="AllLocationsView1Iterator" id="StopDbc">
+      <AttrNames>
+        <Item Value="StopDbc"/>
+      </AttrNames>
+    </attributeValues>
+    <attributeValues IterBinding="AllLocationsView1Iterator" id="StopDbcDays">
+      <AttrNames>
+        <Item Value="StopDbcDays"/>
+      </AttrNames>
+    </attributeValues>
+    <attributeValues IterBinding="AllLocationsView1Iterator" id="LocCurrcode">
+      <AttrNames>
+        <Item Value="LocCurrcode"/>
+      </AttrNames>
+    </attributeValues>
+    <attributeValues IterBinding="AllLocationsView1Iterator" id="AllowSms">
+      <AttrNames>
+        <Item Value="AllowSms"/>
+      </AttrNames>
+    </attributeValues>
+    <attributeValues IterBinding="AllLocationsView1Iterator" id="PosCustomerid">
+      <AttrNames>
+        <Item Value="PosCustomerid"/>
+      </AttrNames>
+    </attributeValues>
+    <attributeValues IterBinding="AllLocationsView1Iterator" id="PosBankid">
+      <AttrNames>
+        <Item Value="PosBankid"/>
+      </AttrNames>
+    </attributeValues>
+    <attributeValues IterBinding="AllLocationsView1Iterator" id="PosBranchid">
+      <AttrNames>
+        <Item Value="PosBranchid"/>
+      </AttrNames>
+    </attributeValues>
+    <attributeValues IterBinding="AllLocationsView1Iterator" id="MktRegionid">
+      <AttrNames>
+        <Item Value="MktRegionid"/>
+      </AttrNames>
+    </attributeValues>
+    <attributeValues IterBinding="AllLocationsView1Iterator" id="EbsLocationId">
+      <AttrNames>
+        <Item Value="EbsLocationId"/>
+      </AttrNames>
+    </attributeValues>
+    <attributeValues IterBinding="AllLocationsView1Iterator" id="IsAllowImeiSoldCust">
+      <AttrNames>
+        <Item Value="IsAllowImeiSoldCust"/>
+      </AttrNames>
+    </attributeValues>
+    <attributeValues IterBinding="AllLocationsView1Iterator" id="LocShortname">
+      <AttrNames>
+        <Item Value="LocShortname"/>
+      </AttrNames>
+    </attributeValues>
+    <attributeValues IterBinding="AllLocationsView1Iterator" id="SubRegionid">
+      <AttrNames>
+        <Item Value="SubRegionid"/>
+      </AttrNames>
+    </attributeValues>
+    <attributeValues IterBinding="AllLocationsView1Iterator" id="StopOnAging">
+      <AttrNames>
+        <Item Value="StopOnAging"/>
+      </AttrNames>
+    </attributeValues>
+    <attributeValues IterBinding="AllLocationsView1Iterator" id="StopSoSubgroup">
+      <AttrNames>
+        <Item Value="StopSoSubgroup"/>
+      </AttrNames>
+    </attributeValues>
+    <attributeValues IterBinding="AllLocationsView1Iterator" id="SecurityChequeDays">
+      <AttrNames>
+        <Item Value="SecurityChequeDays"/>
+      </AttrNames>
+    </attributeValues>
+    <attributeValues IterBinding="AllLocationsView1Iterator" id="CompanyCode">
+      <AttrNames>
+        <Item Value="CompanyCode"/>
+      </AttrNames>
+    </attributeValues>
+  </bindings>
+</pageDefinition>
